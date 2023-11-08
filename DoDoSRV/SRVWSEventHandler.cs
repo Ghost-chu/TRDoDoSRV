@@ -3,21 +3,19 @@ using System.Text;
 using DoDo.Open.Sdk.Models.Events;
 using DoDo.Open.Sdk.Models.Messages;
 using DoDo.Open.Sdk.Services;
-using Terraria;
 using Terraria.Chat;
-using Terraria.ID;
 using Terraria.Localization;
 using Color = Microsoft.Xna.Framework.Color;
 
 namespace TRDoDoSRV.DoDoSRV
 {
-    public class SRVWSEventHandler : DemoEventProcessService
+    public class SRVWSEventHandler : EventProcessService
     {
         private readonly TRDoDoSRV modInstance;
         private readonly string channelId;
         private readonly string islandId;
 
-        public SRVWSEventHandler(TRDoDoSRV modInstance, OpenApiService openApiService, string channelId, string islandId) : base(openApiService)
+        public SRVWSEventHandler(TRDoDoSRV modInstance, OpenApiService openApiService, string channelId, string islandId)
         {
             this.modInstance = modInstance;
             this.channelId = channelId;
@@ -26,7 +24,6 @@ namespace TRDoDoSRV.DoDoSRV
 
         public override void Connected(string message)
         {
-            base.Connected(message);
             Console.WriteLine("DoDoSRV 连接已建立：" + message);
         }
 
@@ -38,6 +35,11 @@ namespace TRDoDoSRV.DoDoSRV
         public override void Reconnected(string message)
         {
             Console.WriteLine("DoDoSRV 已重新连接到事件服务器：" + message);
+        }
+
+        public override void Exception(string message)
+        {
+            Console.WriteLine("DoDoSRV 连接发生错误：" + message);
         }
 
         public override void ChannelMessageEvent<T>(EventSubjectOutput<EventSubjectDataBusiness<EventBodyChannelMessage<T>>> input)
