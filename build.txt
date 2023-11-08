@@ -1,4 +1,5 @@
 displayName = DoDoSRV on tModLoader
 author = Ghost_chu
-version = 0.2
+version = 0.4
 dllReferences = DoDo.Open.Sdk, RestSharp
+side = Server
