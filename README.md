@@ -3,6 +3,10 @@
 适用于 [tModLoader](https://tmodloader.net/) 的 [DoDo](https://www.imdodo.com/) 双向聊天桥接插件。  
 正在寻找适用于 Minecraft Spigot 的 DoDoSRV？[看看这里](https://github.com/Ghost-chu/DoDoSRV)
 
+DoDoSRV 在客户端上不会工作（不会有任何效果！），请将其安装在服务端！（或通过游戏中的多人游戏->“开服并加入游戏”启动本地服务器）
+
+[quote=tModLoader]Developed By Ghost_chu[/quote]
+
 ## 演示
 
 ![image](https://github.com/Ghost-chu/TRDoDoSRV/assets/30802565/0948c92b-da62-4320-a184-08ef65a75302)
