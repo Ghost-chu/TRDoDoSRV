@@ -1,0 +1,41 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	DemoSword: {
+		DisplayName: Demo Sword
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	DoDoConfig: {
+		DisplayName: Do Do Config
+
+		Headers: {
+			BotClientId: Bot Client Id Header
+			BotToken: Bot Token Header
+			IslandId: Island Id Header
+			ChannelId: Channel Id Header
+		}
+
+		BotClientId: {
+			Label: Bot Client Id
+			Tooltip: ""
+		}
+
+		BotToken: {
+			Label: Bot Token
+			Tooltip: ""
+		}
+
+		IslandId: {
+			Label: Island Id
+			Tooltip: ""
+		}
+
+		ChannelId: {
+			Label: Channel Id
+			Tooltip: ""
+		}
+	}
+}

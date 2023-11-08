@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rSauGYrzVk04YtjqtvddaKBS1ITram8sDraa10gfK/DHgLTYn8UmmyxUB5VaXsLVlFU5XDW+2JA9X2llvBcPPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\OneDrive\\文档\\My Games\\Terraria\\tModLoader\\ModSources\\TRDoDoSRV\\TRDoDoSRV.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\dodo.open.sdk\\1.8.7\\dodo.open.sdk.1.8.7.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.text.json\\6.0.5\\system.text.json.6.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

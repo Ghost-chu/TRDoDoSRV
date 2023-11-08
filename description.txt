@@ -1,0 +1,1 @@
+DoDoSRV on tModLoader is a chat bridge mod for DoDO IM.
