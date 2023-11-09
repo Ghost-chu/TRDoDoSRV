@@ -1,2 +1,4 @@
 DoDoSRV on tModLoader 是一个适用于 tModLoader 的 DoDo 双向聊天桥接插件。
 DoDoSRV 在客户端上不会工作（不会有任何效果！），请将其安装在服务端！（或通过游戏中的多人游戏->“开服并加入游戏”启动本地服务器）
+
+在 GitHub 上获取源代码或报告问题：https://github.com/Ghost-chu/TRDoDoSRV
